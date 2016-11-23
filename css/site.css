@@ -701,6 +701,9 @@ html {
 body {
   line-height: 1.35;
 }
+h1 {
+  margin: 0;
+}
 p {
   margin-bottom: 1rem;
 }
@@ -1065,7 +1068,7 @@ img {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("/img/dist/background.jpg");
+  background-image: url("../img/dist/background.jpg");
   background-size: cover;
   background-position: center center;
   z-index: -100;
